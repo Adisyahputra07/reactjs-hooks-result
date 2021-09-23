@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import React, { Component } from 'react';
+import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 
 class ExampleForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      fullname: "",
-      email: "",
-      password: "",
+      fullname: '',
+      email: '',
+      password: '',
     };
   }
 
